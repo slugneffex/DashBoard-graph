@@ -1,0 +1,73 @@
+.sideBar {
+    background-color: white;
+    width: 356px;
+}
+
+.logo {
+    padding: 40px 70px;
+    border-bottom: 3px solid #E7EFFF;
+}
+
+
+.dashBoardTextDiv {
+    background-color: #0D62FF;
+    border-radius: 5px;
+    box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px #8A92A64D;
+    width: 294px;
+    height: 46.5px;
+    margin: 29.3px 26.67px 17.34px 34.9px;
+}
+
+.dashBoardText {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 27.9px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.6px;
+}
+
+.dashBoardText .icon {
+    margin-right: 20px;
+}
+
+.otherOption {
+    margin-top: 17.45px;
+    margin-left: 34.9px;
+}
+
+.otherOption ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.otherOption ul li {
+    list-style-type: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.otherOption ul li p {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: #0D62FF;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.6px;
+
+}
+
+.otherOption ul li .icon {
+    margin-right: 20px;
+    width: 23px;
+    height: 22px;
+}
+
+.otherOption ul li .iconLocation {
+    margin-right: 24px;
+    width: 16px;
+    height: 23px;
+}

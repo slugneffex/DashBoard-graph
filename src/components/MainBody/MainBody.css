@@ -1,0 +1,347 @@
+.mainbodyDiv {
+    background-color: #E7EFFF;
+    width: 100%;
+    height: auto;
+}
+
+.bodyHeader {
+    background-color: #0C58E6;
+    height: 145px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.bodyHeaderText {
+    padding: 15px 0 0 34px;
+    /* line-height: 26px; */
+}
+
+.bodyHeader h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.bodyHeader p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #FFF;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 12px;
+
+}
+
+.bottombody {
+    padding: 24px 12px 12px 24px;
+    max-width: 100%;
+}
+
+.firstbody {
+    /* height: 172px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+
+.firstbody .firstbodyCards {
+    width: 230px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 16px 20px 16px;
+    box-shadow: 0px 4px 4px 0px #1878F240;
+
+}
+
+
+.firstbodyCards h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.cardelements {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cardelements h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.trend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trend span {
+    font-size: 14px;
+}
+
+.trend .percentage {
+    color: #018E42;
+    font-size: 12px;
+    background-color: #018E421A;
+    margin-right: 7px;
+    padding: 6px 3px;
+    border-radius: 4px;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+}
+
+.percentage svg {
+    margin-right: 3px;
+}
+
+
+
+.secondbody {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.secondbodyCards {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 16px 20px 16px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px #1878F240;
+}
+
+.secondLeftSide {
+    width: 230px;
+    text-align: center;
+    /* min-width: calc((2/12)*100%);  */
+}
+
+.secondLeftSide h5 {
+    width: 230px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 300;
+    color: #333;
+    margin: 10px 0;
+    /* min-width: calc((2/12)*100%);  */
+}
+
+.secondRightSide {
+    width: calc((8.6/12)*100%);
+}
+
+.list {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 13px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+}
+
+.list li p {
+    margin: 0;
+}
+
+.listDiv {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.secondRightText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.xAxis {
+    font-size: 10px !important;
+}
+
+.recharts-curve {
+    stroke: none !important;
+}
+
+.recharts-layer {
+    stroke: none !important;
+}
+
+.recharts-layer line {
+    display: none !important;
+}
+
+#recharts6-clip {
+
+}
+
+.secondRightText h5 {
+    font-weight: 300;
+    font-size: 21px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.secondRightText p {
+    font-weight: 400;
+    font-size: 19px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.thirdbody {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.thirdLeftPart {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 16px 15px 16px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px #1878F240;
+    width: 230px;
+}
+
+.thirdbody .thirdLeftPart .paraText {
+    display: flex;
+    align-items: center;
+}
+
+.thirdbody .thirdLeftPart .paraText svg {
+    margin-right: 10px;
+}
+
+.thirdbody .thirdLeftPart .paraText p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #333;
+}
+
+.thirdbody h5 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.thirdbody p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0F2552;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.thirdmiddle {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 16px 15px 16px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px #1878F240;
+    width: 330px;
+}
+
+
+.thirdlast {
+    width: calc((4.5/12)*100%);
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 16px 15px 16px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px #1878F240;
+
+}
+
+.thirdLastTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgthird {
+    display: flex;
+}
+
+.imgthird ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.imgthird ul li .listDivthirdmiddle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.thirdbody .thirdmiddle .imgthird ul {
+    padding-left: 15px;
+}
+
+.thirdbody .thirdmiddle .imgthird ul li p:first-child {
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+}
+
+.thirdbody .thirdmiddle .imgthird ul li p:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    color: #333;
+
+}
+
+.radioMainLabel {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+}
+
+.radioSecondaryLabel {
+    font-weight: 300;
+    font-size: 10px;
+    color: #333;
+    opacity: 50%;
+    margin: 20px;
+}
+
+
+
+@media (max-width: 720px) {
+    .thirdbody {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
